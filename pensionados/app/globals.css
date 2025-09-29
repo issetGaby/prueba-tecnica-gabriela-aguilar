@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --AzulPrincipal: #173748;
+  --AzulFooter: #0D2333;
+  --AzulClaro: #E0F2FF;
+
+  --NaranjaPrincipal: #FF7500;
+  --NaranjaSecundario: #FF9338;
+  --NaranjaClaro: #FAE9DD;
+
+  --GrisFondo: #F7F7F7;
+  --GrisClaro: #EDEDED;
+  --GrisFormularios: #D9DCE3;
+  --GrisTexCard: #5D6977;
+  --GrisOscuro: #313131;
+  --GrisTextoPlanes: #747474;
+
+  --Verde: #39BA2E;
+  --VerdeClaro: #D0F3CD;
+
+  --Rojo: #E60003;
+  --RojoClaro: #FDC8C9;
+
+  --Amarillo: #FFB800;
+  --AmarilloClaro: #FCE9B8;
+
+  --Rosa: #FD1978;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-poppins), sans-serif;
+
+}
+
+.fontPoppins {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.fontRoboto {
+  font-family: var(--font-roboto), sans-serif;
+
+}
+
+.bacgroundFondo {
+  background: url("../public/bg-positiva.svg") center center / cover no-repeat;
+  height: 100Vh;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
